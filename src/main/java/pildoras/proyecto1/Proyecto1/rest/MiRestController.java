@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 
 public class MiRestController {
 
@@ -14,6 +14,11 @@ public class MiRestController {
             return  "index";
     }
 
+    @GetMapping("/info")
+    public String informacion (){
+
+        return  "Esta es la web del proyecto con Spring Boot";
+    }
 
 
 }
