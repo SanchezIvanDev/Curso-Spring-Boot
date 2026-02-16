@@ -58,6 +58,18 @@
 			<scope>compile</scope>
 		</dependency>
 
+<!-- Dependencia Actuator -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+<!-- Dependencia Security -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
